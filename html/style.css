@@ -166,8 +166,7 @@ h2{font-size:29px}
 
 .title-art{display:block;width:600px;max-width:100%;height:auto;margin:0 auto}
 
-.publication-meta{max-width:1040px;margin:52px auto 0;padding:0 16px;color:#3e6070}
-.publication-meta::before{content:"";display:block;width:320px;max-width:65%;height:1px;background:#dce6ea;margin:0 auto 28px}
+.publication-meta{max-width:1040px;margin:28px auto 0;padding:0 16px;color:#3e6070}
 .author-block{margin:0 auto}
 .author-list{display:flex;justify-content:center;align-items:baseline;flex-wrap:wrap;gap:10px 30px;margin:0;font-size:19px;line-height:1.7;font-weight:500}
 .author-list>span{display:inline-block;white-space:nowrap}
@@ -182,4 +181,10 @@ h2{font-size:29px}
 .project-link{display:inline-flex;align-items:center;justify-content:center;min-width:94px;min-height:39px;padding:7px 20px;border:1px solid #9dbbc5;border-radius:4px;background:#edf5f7;color:#315f70;font-size:14px;font-weight:500;line-height:1.6}
 .project-link:hover{background:#176b7a;border-color:#176b7a;text-decoration:none;color:#fff}
 .project-link.is-disabled{border-color:#dbe5e9;background:#f7fafb;color:#8b9ca5;cursor:default}
-@media(max-width:720px){.publication-meta{padding:0;margin-top:36px}.publication-meta::before{width:220px;margin-bottom:24px}.author-list{font-size:17px;gap:8px 24px}.affiliation-list{font-size:14px;flex-direction:column;gap:5px;margin-top:13px}.corresponding-note{font-size:13px}.project-links{margin-top:17px}}
+@media(max-width:720px){.publication-meta{padding:0;margin-top:24px}.author-list{font-size:17px;gap:8px 24px}.affiliation-list{font-size:14px;flex-direction:column;gap:5px;margin-top:13px}.corresponding-note{font-size:13px}.project-links{margin-top:17px}}
+
+.hero-highlight{max-width:1040px;margin:38px auto 0;padding:29px 28px 27px;background:#edf5f7;border-radius:6px;text-align:center}
+.hero-highlight .hero-description{margin:0}
+.hero-highlight .hero-context{margin-top:14px}
+.hero-highlight .hero-facts{margin-top:18px}
+@media(max-width:720px){.hero-highlight{margin-top:30px;padding:24px 18px;border-radius:4px}.hero-highlight .hero-context{margin-top:13px}.hero-highlight .hero-facts{margin-top:17px}}
