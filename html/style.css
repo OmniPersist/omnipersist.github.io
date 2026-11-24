@@ -170,8 +170,8 @@ h2{font-size:29px}
 .author-block{margin:0 auto}
 .author-list{display:flex;justify-content:center;align-items:baseline;flex-wrap:wrap;gap:10px 30px;margin:0;font-size:19px;line-height:1.7;font-weight:500}
 .author-list>span{display:inline-block;white-space:nowrap}
-.author-list a{color:#326476;text-decoration:none}
-.author-list a:hover{color:#176b7a;text-decoration:underline;text-underline-offset:4px}
+.author-list a{color:#4e6289;text-decoration:none}
+.author-list a:hover{color:#34486e;text-decoration:underline;text-underline-offset:4px}
 .author-block sup{position:static;vertical-align:super;font-size:.68em;line-height:0;margin-left:3px;color:#718b97}
 .affiliation-list{display:flex;justify-content:center;flex-wrap:wrap;gap:7px 28px;margin:16px 0 0;font-size:15px;color:#607681;line-height:1.8}
 .affiliation-list>span{display:inline-block;white-space:nowrap}
